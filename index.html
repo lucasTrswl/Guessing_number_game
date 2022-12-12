@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="container">
+            <h3>Je pense à un nombre entre 1 et 100.</h3>
+            <h3>A toi de le deviner!</h3>
+            <input type="text" placeholder="Num" id="guess" /><br />
+            <button onclick="play()" id="my_btn">Deviner</button>
+            <p id="message1">Nombres de tentatives : 0</p>
+            <p id="message2">Numéros déjà tentés : none</p>
+            <p id="message3"></p>
+        </div>
+        
+    </body>
+
+    <script src="app.js"></script>
+</html>

@@ -1,0 +1,53 @@
+.container{
+    border: 1px solid white;
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 200px;
+
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+
+    
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+h3{
+    font-size : 30px;
+}
+
+#guess {
+    padding-top : 20px;
+    padding-bottom : 20px;
+    padding-left : 10px;
+
+    font-size: 15px;
+    width: 70px;
+}
+
+#my_btn{
+    background: linear-gradient(#622774, #c53364);
+    font-size : 20px;
+    color: white;
+    border-radius: 5px;
+    margin-top : 20px;
+    padding-right : 35px;
+    padding-left : 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+
+
+
+}
+body{
+    height: 100vh;
+    background: linear-gradient(#622774, #c53364);
+    font-family: 'Playfair Display', serif;
+
+}
+
